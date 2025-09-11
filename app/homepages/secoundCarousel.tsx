@@ -1,7 +1,7 @@
 "use client";
 
 const CourseCarousel = () => {
-  const courses = [
+ const courses = [
     {
       id: 1,
       title: "MERN Stack Development",
@@ -9,8 +9,7 @@ const CourseCarousel = () => {
         "Master MongoDB, Express.js, React, and Node.js to build full-stack web applications.",
       image:
         "https://blog.nextideatech.com/wp-content/uploads/2022/12/1_FVtCyRdJ6KOr4YswTtwMeA.jpeg",
-      category: "Web Development",
-      url: "/MERNStackCourseDetails",
+      url: "mernStackPage",
     },
     {
       id: 2,
@@ -19,8 +18,7 @@ const CourseCarousel = () => {
         "Learn Python from basics to advanced concepts for web development, data science, and automation.",
       image:
         "https://venus-online-software-training.com/wp-content/uploads/2023/12/Python-Symbol.png",
-      category: "Programming",
-      url: "pythonDevloperPage",
+      url: "pythonDeveloperPage",
     },
     {
       id: 3,
@@ -29,7 +27,6 @@ const CourseCarousel = () => {
         "Become proficient in analyzing and visualizing data to extract meaningful insights.",
       image:
         "https://www.ishir.com/wp-content/uploads/2024/01/Data-Scientist-vs-Data-Analyst-vs-Data-Engineer-ISHIR.jpg",
-      category: "Data Science", 
       url: "mernStackPage",
     },
   ];
