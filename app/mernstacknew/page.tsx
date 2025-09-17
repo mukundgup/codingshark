@@ -9,18 +9,18 @@ import pradeepsir from "../../public/images/newpradeepsirCopy.jpg";
 import Students from "../../public/pythonimage/Students.svg";
 import WorkingProfessionals from "../../public/pythonimage/WorkingProfessionals.svg";
 import job from "../../public/pythonimage/job.svg";
-import Header from "../(site)/_components/Header";
-import Footer from "../(site)/_components/Footer";
-import genrate from '../../public/pythonimage/generate.png'
-import Manage from '../../public/pythonimage/managedata.png'
-import Debug from '../../public/pythonimage/debug.png'
-import Analyze from '../../public/pythonimage/analyze.png'
-import Automate from '../../public/pythonimage/automate.png'
-import Become from '../../public/pythonimage/become.png'
-import naukri from '../../public/pythonimage/naukri.webp'
-import linkedin from '../../public/pythonimage/Linkedin.webp'
-import Glassdoor from '../../public/pythonimage/Glassdoor.webp'
-import Indeed from '../../public/pythonimage/Indeed.webp'
+// import Header from "../(site)/_components/Header";
+// import Footer from "../(site)/_components/Footer";
+// import genrate from '../../public/pythonimage/generate.png'
+// import Manage from '../../public/pythonimage/managedata.png'
+// import Debug from '../../public/pythonimage/debug.png'
+// import Analyze from '../../public/pythonimage/analyze.png'
+// import Automate from '../../public/pythonimage/automate.png'
+// import Become from '../../public/pythonimage/become.png'
+// import naukri from '../../public/pythonimage/naukri.webp'
+// import linkedin from '../../public/pythonimage/Linkedin.webp'
+// import Glassdoor from '../../public/pythonimage/Glassdoor.webp'
+// import Indeed from '../../public/pythonimage/Indeed.webp'
 export default function Python() {
     const [selected, setSelected] = useState<number[]>([]);
     const toggleSelect = (index: number) => {
@@ -29,12 +29,12 @@ export default function Python() {
         );
     };
     const items = [
-        "I constantly worry about job security given the current state of the job market.",
-        "I want to learn how to write clean and efficient Python code with best practices.",
-        "I need guidance on effective debugging techniques to solve code issues faster.",
-        "I want to leverage AI to find optimal code solutions without extensive searching.",
-        "I'm looking to automate my daily programming tasks to improve productivity.",
-        "I aim to advance my career and reach senior technical leadership positions.",
+        "I want to master full-stack web development with the MERN stack.",
+        "I need to learn how to build scalable web applications using MongoDB, Express, React and Node.js.",
+        "I want to understand how to create RESTful APIs and handle client-server communication.",
+        "I'm looking to build modern, responsive user interfaces with React and manage complex state.",
+        "I need to learn database design and management with MongoDB for web applications.",
+        "I aim to become a professional full-stack developer and advance my career in web development.",
     ];
 
     const mentors = [
@@ -44,13 +44,13 @@ export default function Python() {
             image: pradeep,
             credentials: [
                 "IIT Kharagpur Alumni",
-                "Trained more than 2,10,000 working professionals in AI and other professional tools",
+                "Trained more than 2,10,000 working professionals in MERN Stack development",
                 "TEDx and G20 Speaker"
             ],
-            description: "Hi, I am Pradeep Patidar and I will be your mentor for the upcoming AI for Tech Professionals cohort.",
+            description: "Hi, I am Pradeep Patidar and I will be your mentor for the upcoming MERN Stack Development cohort.",
             experience: "I graduated from IIT Kharagpur and have been in the educational industry for several years now. As a teacher, I was fortunate enough to secure the highest package (INR 1.5 cr) in India.",
-            additionalInfo: "I too have built multiple eight-figure companies with the help of AI, and I am super excited to share all my knowledge and experience with you to help you increase your productivity using AI.",
-            workshop: "Join me in this workshop specifically for tech professionals and let's take the first step towards your success together."
+            additionalInfo: "I too have built multiple eight-figure companies using MERN Stack technologies, and I am super excited to share all my knowledge and experience with you to help you become a proficient full-stack developer.",
+            workshop: "Join me in this workshop specifically for tech professionals and let's take the first step towards mastering MERN Stack development together."
         }
     ];
     const [openFAQ, setOpenFAQ] = useState('start');
@@ -60,33 +60,38 @@ export default function Python() {
     const faqData = [
         {
             id: 'start',
-            question: 'When will the cohort start?',
-            answer: 'The MERN STACK  using AI cohort will start today. The live mega webinar will be hosted this Sunday (August 31, 2025 11:00 AM).'
+            question: 'When will the MERN Stack cohort start?',
+            answer: 'The MERN Stack using AI cohort will start today. The live mega webinar will be hosted this Sunday (August 31, 2025 11:00 AM).'
         },
         {
             id: 'prerequisite',
-            question: 'Is there any prerequisite required?',
-            answer: 'No, the workshop does not require any prerequisites.'
+            question: 'Do I need prior experience with MERN Stack?',
+            answer: 'No prior experience needed! We start from the basics of MongoDB, Express.js, React.js and Node.js. The course is designed for both beginners and intermediate developers.'
         },
         {
             id: 'certified',
-            question: 'Is it a certified cohort?',
-            answer: 'Yes! it is certified cohort by AI For Techies'
+            question: 'Will I get a MERN Stack certification?',
+            answer: 'Yes! You will receive an industry-recognized certification in MERN Stack development upon completing the course and projects.'
         },
         {
             id: 'notes',
-            question: 'Do you get notes & assignments to practice?',
-            answer: 'Absolutely. It is a completely hands-on Masterclass where you will also get notes, reference material & assignments for your future reference.'
+            question: 'What learning materials are provided?',
+            answer: 'You\'ll get comprehensive notes covering MongoDB, Express, React and Node.js, along with practical assignments, code samples, and project templates.'
         },
         {
-            id: 'age',
-            question: 'Is there any age limit for the cohort?',
-            answer: 'No, there is no age limit. I understand that technology might scare some people especially if you are elder & more experienced, however, the cohort will cover tools that you will easily be able to learn, master & use without really being a tech-expert or learning coding.'
+            id: 'technologies',
+            question: 'Which technologies will be covered?',
+            answer: 'We cover the complete MERN stack: MongoDB for database, Express.js for backend, React.js for frontend, and Node.js for server-side development. Plus modern tools like Redux, JWT authentication, and REST APIs.'
         },
         {
-            id: 'time',
-            question: 'How much time will I be able to save?',
-            answer: 'With the help of AI, you will be able to save up to 80% of your work efforts every day while working on your day-to-day tech work.'
+            id: 'projects',
+            question: 'Will there be practical projects?',
+            answer: 'Yes! You\'ll build multiple full-stack applications including a social media app, e-commerce platform, and real-time chat application using the MERN stack.'
+        },
+        {
+            id: 'job',
+            question: 'Will this help me get a job?',
+            answer: 'Absolutely! MERN Stack developers are in high demand. We\'ll help you build a portfolio of projects and prepare you for technical interviews.'
         },
         {
             id: 'payment',
@@ -96,7 +101,7 @@ export default function Python() {
     ];
     return (
         <>
-            <Header />
+
             <div
                 className="relative min-h-screen flex flex-col items-center justify-center  bg-center p-6"
                 style={{ backgroundImage: `url(${bgImage.src})` }}
@@ -111,7 +116,7 @@ export default function Python() {
                         <span className="text-orange-600"> 30 DAYS WITH AI</span>"
                     </h1>
                     <p className="text-gray-700 mb-8 max-w-3xl mx-auto">
-                        Level up your MERN STACK  skills with our intensive 30-day cohort. Learn directly from industry experts, build real-world projects, and gain the confidence to become a job-ready MERN STACK  developer in just one month!
+                        Level up your MERN Stack development skills with our intensive 6 month is AI cohort. Master MongoDB, Express.js, React.js and Node.js while learning directly from industry experts. Build real-world full-stack applications and gain the confidence to become a job-ready MERN Stack developer in just one month!
                     </p>
 
                     {/* Card */}
@@ -155,9 +160,17 @@ export default function Python() {
                                 </div>
 
                                 {/* CTA */}
-                                <button className="bg-orange-400 text-black font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-orange-500">
-                                    Become A MERN STACK  Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                                </button>
+                                <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                                    <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                                        <span className="relative z-10">
+                                            Register For Master Class
+                                        </span>
+                                        {/* Shine effect */}
+                                        <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                                        </span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -191,35 +204,43 @@ export default function Python() {
                         <div className="grid md:grid-cols-2 gap-6 text-left mb-10 bg-transparent">
                             <ul className="space-y-4 text-lg text-gray-800">
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Learn MERN STACK  from basic
+                                    <span className="text-green-500 text-2xl">✔</span> Master MongoDB database operations and queries
                                 </li>
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Create interactive visualisations in MERN STACK  in minutes
+                                    <span className="text-green-500 text-2xl">✔</span> Build REST APIs with Express and Node.js
                                 </li>
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Solve real-world case studies
+                                    <span className="text-green-500 text-2xl">✔</span> Create dynamic user interfaces with React
                                 </li>
                             </ul>
 
 
                             <ul className="space-y-4 text-lg text-gray-800">
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Debug MERN STACK  code in seconds using AI
+                                    <span className="text-green-500 text-2xl">✔</span> Implement user authentication and authorization
                                 </li>
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Create website in MERN STACK  using AI while saving 95% of time
+                                    <span className="text-green-500 text-2xl">✔</span> Deploy full-stack applications to production
                                 </li>
                                 <li className="flex items-center gap-2">
-                                    <span className="text-green-500 text-2xl">✔</span> Write code in MERN STACK  by using AI in seconds
+                                    <span className="text-green-500 text-2xl">✔</span> Build real-world projects from scratch
                                 </li>
                             </ul>
                         </div>
 
 
                         {/* CTA Button */}
-                        <button className="bg-orange-400 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:bg-orange-700">
-                            Become A MERN STACK  Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                        </button>
+                        <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                            <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                                <span className="relative z-10">
+                                    Register For Master Class
+                                </span>
+                                {/* Shine effect */}
+                                <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -235,12 +256,12 @@ export default function Python() {
                         <div className="bg-orange-100 rounded-2xl p-6 text-left shadow-md">
                             <h3 className="text-xl font-semibold mb-4">Week 1</h3>
                             <div className="flex flex-wrap gap-2">
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">What is Programming?</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Variables and Data Types</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Arithmetic Operations</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Conditional Statements</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Loops</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Lists</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Introduction to MongoDB</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">CRUD Operations</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">MongoDB Queries</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Database Design</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Indexing</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Aggregation Pipeline</span>
                             </div>
                         </div>
 
@@ -249,12 +270,12 @@ export default function Python() {
                         <div className="bg-orange-100 rounded-2xl p-6 text-left shadow-md">
                             <h3 className="text-xl font-semibold mb-4">Week 2</h3>
                             <div className="flex flex-wrap gap-2">
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Functions & Parameters</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">String Methods</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">String Operations</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Understanding Syntax Errors</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Express.js Basics</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Routing & Middleware</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">REST API Development</span>
                                 <span className="bg-white px-3 py-1 rounded-lg shadow">Error Handling</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">File Handling</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Authentication</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">API Security</span>
                             </div>
                         </div>
 
@@ -263,11 +284,11 @@ export default function Python() {
                         <div className="bg-orange-100 rounded-2xl p-6 text-left shadow-md">
                             <h3 className="text-xl font-semibold mb-4">Week 3</h3>
                             <div className="flex flex-wrap gap-2">
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Introduction to Dictionaries</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Tuples and Sets</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">MERN STACK  Modules</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Data Structures</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Tuples, Sets & Dictionaries</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">React Fundamentals</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Components & Props</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">State Management</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Hooks</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Redux & Context API</span>
                             </div>
                         </div>
 
@@ -276,12 +297,12 @@ export default function Python() {
                         <div className="bg-orange-100 rounded-2xl p-6 text-left shadow-md">
                             <h3 className="text-xl font-semibold mb-4">Week 4</h3>
                             <div className="flex flex-wrap gap-2">
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Data Visualization</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Project Planning</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Building CLI Applications</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Live Project Building</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Hands-on Courses</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Problem Solving Exercises</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Node.js Fundamentals</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Server-side Logic</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Database Integration</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Full Stack Development</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Deployment</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Performance Optimization</span>
                             </div>
                         </div>
 
@@ -290,10 +311,10 @@ export default function Python() {
                         <div className="bg-orange-100 rounded-2xl p-6 text-left shadow-md">
                             <h3 className="text-xl font-semibold mb-4">Final Project</h3>
                             <div className="flex flex-wrap gap-2">
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Comprehensive Quiz</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Revisiting Key Concepts</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Project Presentations</span>
-                                <span className="bg-white px-3 py-1 rounded-lg shadow">Guidance on Next Steps</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">E-commerce Platform</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Social Media App</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Real-time Chat App</span>
+                                <span className="bg-white px-3 py-1 rounded-lg shadow">Portfolio Website</span>
                                 <span className="bg-white px-3 py-1 rounded-lg shadow">and more...</span>
                             </div>
                         </div>
@@ -302,7 +323,7 @@ export default function Python() {
                         {/* Note Section */}
                         <div className="bg-red-50 rounded-2xl p-6 text-center shadow-md flex items-center justify-center">
                             <p className="text-gray-700 font-medium">
-                                The cohort is designed for everyone who wants to utilize AI more efficiently in their work and enhance their productivity.
+                                The cohort is designed for everyone who wants to become a full-stack developer using the MERN stack and build modern web applications.
                             </p>
                         </div>
                     </div>
@@ -339,12 +360,12 @@ export default function Python() {
 
                 {/* Invite Text */}
                 <p className="text-center text-gray-700 mb-6">
-                    If you checked ANY of the boxes above, then you’re invited to join the
+                    If you checked ANY of the boxes above, then you're invited to join the
                     <a
                         href="#"
                         className="text-blue-600 underline ml-1 hover:text-blue-800"
                     >
-                        MERN STACK  using AI Cohort
+                        MERN Stack Development Cohort
                     </a>
                     .
                 </p>
@@ -352,232 +373,27 @@ export default function Python() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                    <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition">
-                        Become A MERN STACK  Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                    </button>
+                    <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                     <p className="mt-4 font-bold text-gray-900">
                         Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
                     </p>
                 </div>
             </div>
-
             {/* section 5 */}
-            <section className="relative bg-blue-100 py-16">
-                {/* Wave Top */}
-                <div className="absolute top-0 left-0 right-0 overflow-hidden leading-none rotate-180">
-                    <svg width="1400" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                        <path d="M0,30 C300,10 600,50 900,25 C1000,15 1100,35 1200,20 L1200,60 L0,60 Z" fill="white" />
-                    </svg>
-                </div>
-                <div className="container mx-auto px-6 relative z-10">
-                    <h2 className="text-3xl font-bold text-center mb-12">
-                        What you'll learn in this Cohort?
-                    </h2>
 
-                    <div className="grid md:grid-cols-2 gap-12">
-                        {/* Card 1 */}
-                        <div className="text-center">
-                            <Image
-                                src={genrate}
-                                alt="Generate Codes"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Generate Codes in any language with AI
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                Discover how AI streamlines data processing, transforming raw data
-                                into actionable insights swiftly.
-                            </p>
-                        </div>
-
-                        {/* Card 2 */}
-                        <div className="text-center">
-                            <Image
-                                src={Manage}
-                                alt="Manage Data"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Manage data efficiently with AI
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                Discover how AI streamlines data processing, transforming raw data
-                                into actionable insights swiftly.
-                            </p>
-                        </div>
-
-                        {/* Card 3 */}
-                        <div className="text-center">
-                            <Image
-                                src={Debug}
-                                alt="Debug Code"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Debug & Test your codes with AI
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                Learn AI-driven testing techniques to improve software testing
-                                efficiency and accuracy.
-                            </p>
-                        </div>
-                        {/* Card 4 */}
-                        <div className="text-center">
-                            <Image
-                                src={Analyze}
-                                alt="Analyze Data"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Analyze & Visualize your Data with AI
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                Utilize AI algorithms to automatically transform raw data into
-                                visually compelling charts and graphs, speeding up decision-making
-                                by 50%.
-                            </p>
-                        </div>
-                        {/*  card 5 */}
-                        <div className="text-center">
-                            <Image
-                                src={Automate}
-                                alt="Analyze Data"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Automate day-to-day office work with AI
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                AI-driven automation is projected to revolutionize 30% of job tasks across industries.
-                            </p>
-                        </div>
-
-                        {/*  card 6 */}
-                        <div className="text-center">
-                            <Image
-                                src={Become}
-                                alt="Analyze Data"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-64 object-cover"
-                            />
-                            <h3 className="mt-4 text-xl font-semibold">
-                                Become AI-Proof, Secure Your Future
-                            </h3>
-                            <p className="mt-2 text-gray-700">
-                                With AI taking over human jobs, you need to become AI-Proof in 2024 and not just keep your job but also grow in it. This cohort will help you do that & avoid being laid off.
-                            </p>
-                        </div>
-                    </div><br></br>
-                    <div className="text-center">
-                        <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition">
-                            Become A MERN STACK  Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                        </button>
-                        <p className="mt-4 font-bold text-gray-900">
-                            Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
-                        </p>
-                    </div>
-                </div>
-
-
-                {/* Wave Bottom */}
-                {/* <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none">
-                    <svg width="1400" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                        <path d="M0,30 C300,10 600,50 900,25 C1000,15 1100,35 1200,20 L1200,60 L0,60 Z" fill="white" />
-                    </svg>
-                </div> */}
-            </section>
 
             {/* section 6 */}
-            <section className="relative bg-[#EAF6FF] py-16">
-                {/* Wave Top */}
-                <div className="absolute top-0 left-0 right-0 overflow-hidden leading-none rotate-180">
-                    <svg width="1400" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                        <path d="M0,30 C300,10 600,50 900,25 C1000,15 1100,35 1200,20 L1200,60 L0,60 Z" fill="white" />
-                    </svg>
-                </div>
-                {/* Content */}
-                <div className="container mx-auto px-6 relative z-10">
-                    <h2 className="text-3xl font-bold text-center mb-12">
-                        Openings in MERN STACK 
-                    </h2>
-                    <div className="grid md:grid-cols-2 gap-12 text-center">
-                        {/* Card 1 */}
-                        <div>
-                            <Image
-                                src={naukri}
-                                alt="Naukri MERN STACK  Jobs"
-                                width={400}
-                                height={400}
-                                className="rounded-lg shadow-md mx-auto"
-                            />
-                            <p className="mt-4 text-gray-700 font-medium">
-                                1.41 lakh+ Openings on Naukri
-                            </p>
-                        </div>
 
-                        {/* Card 2 */}
-                        <div>
-                            <Image
-                                src={linkedin}
-                                alt="LinkedIn MERN STACK  Jobs"
-                                width={400}
-                                height={400}
-                                className="rounded-lg shadow-md mx-auto"
-                            />
-                            <p className="mt-4 text-gray-700 font-medium">
-                                1.2 lakh+ Openings on Linkedin
-                            </p>
-                        </div>
-
-                        {/* Card 3 */}
-                        <div>
-                            <Image
-                                src={Glassdoor}
-                                alt="Glassdoor MERN STACK  Jobs"
-                                width={400}
-                                height={400}
-                                className="rounded-lg shadow-md mx-auto"
-                            />
-                            <p className="mt-4 text-gray-700 font-medium">
-                                7 thousand+ Openings on Glassdoor
-                            </p>
-                        </div>
-
-                        {/* Card 4 */}
-                        <div>
-                            <Image
-                                src={Indeed}
-                                alt="Indeed MERN STACK  Jobs"
-                                width={400}
-                                height={200}
-                                className="rounded-lg shadow-md mx-auto"
-                            />
-                            <p className="mt-4 text-gray-700 font-medium">
-                                800+ Openings on Indeed
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 overflow-hidden leading-none">
-                    <svg width="1400" height="60" viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                        <path d="M0,30 C300,10 600,50 900,25 C1000,15 1100,35 1200,20 L1200,60 L0,60 Z" fill="white" />
-                    </svg>
-                </div>
-
-            </section>
 
             {/* section 7 */}
             <section className="py-16 bg-white text-center">
@@ -624,11 +440,17 @@ export default function Python() {
 
                 {/* CTA Button */}
                 <div className="mt-12">
-                    <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                        Become A MERN STACK  Using AI Expert Now At{" "}
-                        <span className="line-through mr-2">₹1999</span>
-                        <span className="text-white font-bold">₹199/-</span>
-                    </button>
+                    <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                 </div>
 
                 {/* Register Notice */}
@@ -649,7 +471,7 @@ export default function Python() {
                 {/* Heading */}
                 <h2 className="text-3xl font-bold mb-4">Did You Know?</h2>
                 <p className="text-lg max-w-3xl mx-auto mb-12">
-                    By upskilling in AI, you can break free from the limitations of service-based roles and step into exciting, high-growth opportunities in product companies and cutting-edge tech industries.
+                    By mastering the MERN stack, you can transform your career from basic web development to building modern, scalable full-stack applications that are in high demand across tech companies worldwide.
                 </p>
 
                 {/* 3 Cards */}
@@ -658,7 +480,7 @@ export default function Python() {
                     <div className="border-2 border-gray-300 rounded-lg p-6 bg-white shadow-sm">
                         <h3 className="text-3xl font-bold">4 LPA</h3>
                         <p className="mt-2 text-lg">
-                            Average salary of a MERN STACK  Developer
+                            Average salary of a Junior MERN Stack Developer
                         </p>
                     </div>
 
@@ -666,27 +488,31 @@ export default function Python() {
                     <div className="border-2 border-blue-500 rounded-lg p-6 bg-white shadow-sm">
                         <h3 className="text-3xl font-bold">8 LPA</h3>
                         <p className="mt-2 text-lg">
-                            Average salary of a MERN STACK  Developer with 3 years of experience
+                            Average salary of a Mid-level MERN Stack Developer
                         </p>
                     </div>
 
                     {/* Card 3 */}
                     <div className="border-2 border-green-600 rounded-lg p-6 bg-white shadow-sm">
-                        <h3 className="text-3xl font-bold">21 LPA</h3>
+                        <h3 className="text-3xl font-bold">15 LPA</h3>
                         <p className="mt-2 text-lg">
-                            Average salary of a MERN STACK  Developer with 3 years of experience who
-                            uses AI
+                            Average salary of a Senior MERN Stack Developer with expertise in modern frameworks
                         </p>
                     </div>
                 </div>
 
                 {/* CTA Button */}
                 <div className="mt-12">
-                    <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                        Become A MERN STACK  Using AI Expert Now At{" "}
-                        <span className="line-through mr-2">₹1999</span>
-                        <span className="font-bold">₹199/-</span>
-                    </button>
+                    <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                 </div>
 
                 {/* Register Notice */}
@@ -765,11 +591,17 @@ export default function Python() {
                 <p className="text-gray-700 mb-8">Limited Seats Only at Rs. 199/-</p>
 
                 {/* CTA Button */}
-                <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                    Become A MERN STACK  Using AI Expert Now At{" "}
-                    <span className="line-through mr-2">₹1999</span>
-                    <span className="font-bold">₹199/-</span>
-                </button>
+                <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                    <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                        <span className="relative z-10">
+                            Register For Master Class
+                        </span>
+                        {/* Shine effect */}
+                        <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                        </span>
+                    </button>
+                </a>
             </section>
 
             {/* section 9 */}
@@ -841,9 +673,17 @@ export default function Python() {
 
                 {/* Call to Action */}
                 <div className="text-center mt-16 space-y-4">
-                    <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors shadow-lg">
-                        Become A MERN STACK  Using AI Expert Now At ₹1000 ₹109*
-                    </button>
+                    <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                     <p className="text-gray-600 text-sm">
                         Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
                     </p>
@@ -871,9 +711,17 @@ export default function Python() {
                         </div>
 
                         {/* CTA Button */}
-                        <button className="bg-orange-400 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-colors duration-200">
-                            Become A MERN STACK  Using AI Expert Now At ₹1800 ₹199/-
-                        </button>
+                        <a href="https://forms.gle/CZUPkBSChhbPyTSh6" target="_blank" rel="noopener noreferrer">
+                            <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group
+">
+                                <span className="relative z-10">
+                                    Register For Master Class
+                                </span>
+                                {/* Shine effect */}
+                                <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                                </span>
+                            </button>
+                        </a>
                     </div>
 
                     {/* FAQ Section */}
@@ -914,7 +762,7 @@ export default function Python() {
                 </div>
             </div>
 
-            <Footer />
+
         </>
 
     );

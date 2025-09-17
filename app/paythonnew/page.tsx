@@ -155,9 +155,16 @@ export default function Python() {
                                 </div>
 
                                 {/* CTA */}
-                                <button className="bg-orange-400 text-black font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-orange-500">
-                                    Become A Python Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                                </button>
+                                <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                                    <button className="relative overflow-hidden bg-gradient-to-r from-orange-500  to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                                        <span className="relative z-10">
+                                            Register For Master Class
+                                        </span>
+                                        {/* Shine effect */}
+                                        <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                                        </span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -217,9 +224,16 @@ export default function Python() {
 
 
                         {/* CTA Button */}
-                        <button className="bg-orange-400 text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:bg-orange-700">
-                            Become A Python Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
+                         <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
                         </button>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -352,9 +366,16 @@ export default function Python() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                    <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition">
-                        Become A Python Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
-                    </button>
+                     <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                     <p className="mt-4 font-bold text-gray-900">
                         Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
                     </p>
@@ -481,9 +502,16 @@ export default function Python() {
                         </div>
                     </div><br></br>
                     <div className="text-center">
-                        <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition">
-                            Become A Python Using AI Expert Now At <span className="line-through">₹1999</span> ₹199/-
+                         <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
                         </button>
+                    </a>
                         <p className="mt-4 font-bold text-gray-900">
                             Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
                         </p>
@@ -624,11 +652,16 @@ export default function Python() {
 
                 {/* CTA Button */}
                 <div className="mt-12">
-                    <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                        Become A Python Using AI Expert Now At{" "}
-                        <span className="line-through mr-2">₹1999</span>
-                        <span className="text-white font-bold">₹199/-</span>
-                    </button>
+                     <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                 </div>
 
                 {/* Register Notice */}
@@ -682,11 +715,16 @@ export default function Python() {
 
                 {/* CTA Button */}
                 <div className="mt-12">
-                    <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                        Become A Python Using AI Expert Now At{" "}
-                        <span className="line-through mr-2">₹1999</span>
-                        <span className="font-bold">₹199/-</span>
-                    </button>
+                     <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                 </div>
 
                 {/* Register Notice */}
@@ -765,11 +803,16 @@ export default function Python() {
                 <p className="text-gray-700 mb-8">Limited Seats Only at Rs. 199/-</p>
 
                 {/* CTA Button */}
-                <button className="bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition">
-                    Become A Python Using AI Expert Now At{" "}
-                    <span className="line-through mr-2">₹1999</span>
-                    <span className="font-bold">₹199/-</span>
-                </button>
+                 <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
             </section>
 
             {/* section 9 */}
@@ -841,9 +884,16 @@ export default function Python() {
 
                 {/* Call to Action */}
                 <div className="text-center mt-16 space-y-4">
-                    <button className="bg-orange-400 hover:bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors shadow-lg">
-                        Become A Python Using AI Expert Now At ₹1000 ₹109*
-                    </button>
+                    <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register For Master Class
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
+                        </button>
+                    </a>
                     <p className="text-gray-600 text-sm">
                         Register Before August 29, 2025 To Unlock All Bonuses Worth Rs. 12300
                     </p>
@@ -871,9 +921,16 @@ export default function Python() {
                         </div>
 
                         {/* CTA Button */}
-                        <button className="bg-orange-400 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-colors duration-200">
-                            Become A Python Using AI Expert Now At ₹1800 ₹199/-
+ <a href="https://forms.gle/pm3BXMjuR8MaTWh79" target="_blank" rel="noopener noreferrer">
+                        <button className="relative overflow-hidden bg-gradient-to-r from-orange-500 to-red-500 text-white font-extrabold text-base px-6 py-3 rounded-xl shadow-[0_4px_0px_0px_rgba(180,60,0,1),0_0_15px_rgba(255,100,0,0.6)] active:shadow-[0_2px_0px_0px_rgba(180,60,0,1),0_0_8px_rgba(255,100,0,0.4)] active:translate-y-1  hover:scale-105  transition-all duration-300  group">
+                            <span className="relative z-10">
+                                Register TO CALL BACK
+                            </span>
+                            {/* Shine effect */}
+                            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 ease-out skew-x-[-20deg]">
+                            </span>
                         </button>
+                    </a>
                     </div>
 
                     {/* FAQ Section */}

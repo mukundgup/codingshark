@@ -50,7 +50,7 @@ function Header() {
     { name: 'Courses', path: '/courses' },
     { name: 'Python', path: '/paythonnew' }, // spelling "pythonnew" correct kar lena
     { name: 'Mern Stack', path: '/mernstacknew' },
-    { name: 'About us', path: '/aboutus' },
+    { name: 'About us', path: '/aboutme' },
   ];
 
   const currentNavLinks: NavLink[] = [
